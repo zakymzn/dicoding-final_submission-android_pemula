@@ -19,11 +19,10 @@
 
         <ImageView
             android:id="@+id/img_place_photo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
@@ -36,11 +35,11 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="TextView"
+            android:text="@string/places_name"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textStyle="bold"
             card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintStart_toEndOf="@+id/imageView"
+            card_view:layout_constraintStart_toEndOf="@+id/img_place_photo"
             card_view:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -51,10 +50,11 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="TextView"
+            android:text="@string/places_location"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintStart_toEndOf="@+id/imageView"
-            card_view:layout_constraintTop_toBottomOf="@+id/textView" />
+            card_view:layout_constraintStart_toEndOf="@+id/img_place_photo"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_place_name" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

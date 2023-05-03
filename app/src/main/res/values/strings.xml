@@ -2,7 +2,7 @@
     <string name="app_name">ExploreKebumen</string>
 
     <string name="places_name">Nama Tempat Wisata</string>
-    <string name="overview">Overview</string>
+    <string name="places_location">Lokasi Tempat Wisata</string>
     <string name="about">About</string>
     <string-array name="place_name">
         <item>Benteng Van Der Wijck</item>
