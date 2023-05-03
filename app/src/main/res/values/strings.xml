@@ -19,18 +19,18 @@
         <item>Air Terjun Silancur</item>
     </string-array>
     <integer-array name="place_main_photo">
-        <item>@drawable/BVW_main</item>
-        <item>@drawable/BPI_main</item>
-        <item>@drawable/PM_main</item>
-        <item>@drawable/WS_main</item>
-        <item>@drawable/GJ_main</item>
-        <item>@drawable/KG_main</item>
-        <item>@drawable/KBA_main</item>
-        <item>@drawable/WAJ_main</item>
-        <item>@drawable/HML_main</item>
-        <item>@drawable/ABP_main</item>
-        <item>@drawable/PAPK_main</item>
-        <item>@drawable/ATS_main</item>
+        <item>@drawable/bvw_main</item>
+        <item>@drawable/bpi_main</item>
+        <item>@drawable/pm_main</item>
+        <item>@drawable/ws_main</item>
+        <item>@drawable/gj_main</item>
+        <item>@drawable/kg_main</item>
+        <item>@drawable/kba_main</item>
+        <item>@drawable/waj_main</item>
+        <item>@drawable/hml_main</item>
+        <item>@drawable/abp_main</item>
+        <item>@drawable/papk_main</item>
+        <item>@drawable/ats_main</item>
     </integer-array>
     <string-array name="place_description">
         <item>Benteng Van Der Wijck adalah benteng pertahanan Hindia Belanda yang dibangun sekitar tahun 1820 atau permulaan abad ke-19. Benteng ini terletak di kota Gombong, sekitar 20 km sebelah barat dari Ibukota Kabupaten Kebumen, Jawa Tengah. Nama Benteng ini diambil dari nama salah satu Gubernur Jenderal Hindia Belanda Carel Herman Aart Van der Wijck yang bertugas di Jawa pada tahun 1893 - 1899.\n\nBenteng Van der Wijck didirikan pada tahun 1818 oleh Jenderal Van den Bosch dan menjadikan bangunan ini sebagai kantor VOC, kongsi perdagangan milik Belanda. Kemudian, benteng tersebut berubah fungsi menjadi benteng pertahanan saat Belanda berperang melawan pejuang Yogyakarta. Pada awal pembangunannya, benteng ini bernama Forth Cochius. Nama yang diambil dari pemimpin perang Belanda, Frans David Cochiud yang pernah bertugas di daerah Bagelen, salah satu wilayah Karesidenan Kedu. Komandan Frans David Cochius merupakan pimpinan prajurit Belanda ketika Perang Diponegoro berlangsung. \n\nKemudian pada tahun 1856 benteng tersebut beralih menjadi sebuah sekolah khusus anak-anak dari bangsa Eropa. Sekolah tersebut bernama Pupillen School, yaitu sekolah calon militer. Perubahan fungsi benteng tersebut berpengaruh pada lingkungan di sekitar benteng yaitu mulai tumbuh pemukiman militer di sekitar benteng. \n\nKemudian benteng tersebut berganti nama menjadi Van der Wijck hingga sekarang. Nama tersebut berasal dari nama komandan yang saat itu memiliki karir yang cukup cemerlang untuk membungkam perlawanan rakyat Aceh.\n\nDilansir dari situs resmi Kementerian Pendidikan dan Kebudayaan Republik Indonesia, Benteng Van der Wijck ini memiliki dua lantai, dengan jumlah kamar lebih dari 32 kamar. Kamar-kamar tersebut sangat luas dan memiliki pintu penghubung serta jendela. Luas benteng atas dan bawah sebesar 3.606 meter persegi. Memiliki 4 pintu masuk utama ke dalam benteng. Tinggi dari benteng yaitu 9,67 meter dan ditambah cerobong setinggi 3,33 meter. Terdapat 16 barak dengan ukuran masing-masing 7,5 × 11,32 meter. Saat ini Benteng Van Der Wijck dimanfaatkan oleh pemerintah daerah sebagai tempat area bermain dan ruangan-ruangan yang terletak di depan benteng digunakan menjadi tempat bermain.</item>
@@ -61,69 +61,69 @@
         <item>Pujegan, Wadasmalang, Kec. Karangsambung, Kabupaten Kebumen, Jawa Tengah</item>
     </string-array>
     <integer-array name="BVW_photos">
-        <item>@drawable/BVW_1</item>
-        <item>@drawable/BVW_2</item>
-        <item>@drawable/BVW_3</item>
-        <item>@drawable/BVW_4</item>
+        <item>@drawable/bvw_1</item>
+        <item>@drawable/bvw_2</item>
+        <item>@drawable/bvw_3</item>
+        <item>@drawable/bvw_4</item>
     </integer-array>
     <integer-array name="BPI_photos">
-        <item>@drawable/BPI_1</item>
-        <item>@drawable/BPI_2</item>
-        <item>@drawable/BPI_3</item>
-        <item>@drawable/BPI_4</item>
+        <item>@drawable/bpi_1</item>
+        <item>@drawable/bpi_2</item>
+        <item>@drawable/bpi_3</item>
+        <item>@drawable/bpi_4</item>
     </integer-array>
     <integer-array name="PM_photos">
-        <item>@drawable/PM_1</item>
-        <item>@drawable/PM_2</item>
-        <item>@drawable/PM_3</item>
-        <item>@drawable/PM_4</item>
+        <item>@drawable/pm_1</item>
+        <item>@drawable/pm_2</item>
+        <item>@drawable/pm_3</item>
+        <item>@drawable/pm_4</item>
     </integer-array>
     <integer-array name="WS_photos">
-        <item>@drawable/WS_1</item>
-        <item>@drawable/WS_2</item>
-        <item>@drawable/WS_3</item>
+        <item>@drawable/ws_1</item>
+        <item>@drawable/ws_2</item>
+        <item>@drawable/ws_3</item>
     </integer-array>
     <integer-array name="GJ_photos">
-        <item>@drawable/GJ_1</item>
-        <item>@drawable/GJ_2</item>
-        <item>@drawable/GJ_3</item>
-        <item>@drawable/GJ_4</item>
+        <item>@drawable/gj_1</item>
+        <item>@drawable/gj_2</item>
+        <item>@drawable/gj_3</item>
+        <item>@drawable/gj_4</item>
     </integer-array>
     <integer-array name="KG_photos">
-        <item>@drawable/KG_1</item>
-        <item>@drawable/KG_2</item>
-        <item>@drawable/KG_3</item>
+        <item>@drawable/kg_1</item>
+        <item>@drawable/kg_2</item>
+        <item>@drawable/kg_3</item>
     </integer-array>
     <integer-array name="KBA_photos">
-        <item>@drawable/KBA_1</item>
-        <item>@drawable/KBA_2</item>
-        <item>@drawable/KBA_3</item>
+        <item>@drawable/kba_1</item>
+        <item>@drawable/kba_2</item>
+        <item>@drawable/kba_3</item>
     </integer-array>
     <integer-array name="WAJ_photos">
-        <item>@drawable/WAJ_1</item>
-        <item>@drawable/WAJ_2</item>
-        <item>@drawable/WAJ_3</item>
-        <item>@drawable/WAJ_4</item>
+        <item>@drawable/waj_1</item>
+        <item>@drawable/waj_2</item>
+        <item>@drawable/waj_3</item>
+        <item>@drawable/waj_4</item>
     </integer-array>
     <integer-array name="HML_photos">
-        <item>@drawable/HML_1</item>
-        <item>@drawable/HML_2</item>
-        <item>@drawable/HML_3</item>
-        <item>@drawable/HML_4</item>
+        <item>@drawable/hml_1</item>
+        <item>@drawable/hml_2</item>
+        <item>@drawable/hml_3</item>
+        <item>@drawable/hml_4</item>
     </integer-array>
     <integer-array name="ABP_photos">
-        <item>@drawable/ABP_1</item>
-        <item>@drawable/ABP_2</item>
-        <item>@drawable/ABP_3</item>
-        <item>@drawable/ABP_4</item>
+        <item>@drawable/abp_1</item>
+        <item>@drawable/abp_2</item>
+        <item>@drawable/abp_3</item>
+        <item>@drawable/abp_4</item>
     </integer-array>
     <integer-array name="PAPK_photos">
-        <item>@drawable/PAPK_1</item>
-        <item>@drawable/PAPK_2</item>
-        <item>@drawable/PAPK_3</item>
-        <item>@drawable/PAPK_4</item>
+        <item>@drawable/papk_1</item>
+        <item>@drawable/papk_2</item>
+        <item>@drawable/papk_3</item>
+        <item>@drawable/papk_4</item>
     </integer-array>
     <integer-array name="ATS_photos">
-        <item>@drawable/ATS_1</item>
+        <item>@drawable/ats_1</item>
     </integer-array>
 </resources>
