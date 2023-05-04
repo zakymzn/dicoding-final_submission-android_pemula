@@ -4,6 +4,8 @@
     <string name="places_name">Nama Tempat Wisata</string>
     <string name="places_location">Lokasi Tempat Wisata</string>
     <string name="about">About</string>
+    <string name="profile_name">Ma\'mur Zaky Nurrokhman</string>
+    <string name="profile_email">mamurzakynurrokhman@gmail.com</string>
     <string-array name="place_name">
         <item>Benteng Van Der Wijck</item>
         <item>Bukit Pentulu Indah</item>

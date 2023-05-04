@@ -1,9 +1,11 @@
 package com.zakymzn.explorekebumen
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.zakymzn.explorekebumen.databinding.ActivityMainBinding
@@ -24,16 +26,20 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
-        return super.onCreateOptionsMenu(menu)
+//        return super.onCreateOptionsMenu(menu)
+        return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
+        return when (item.itemId) {
             R.id.about_page -> {
-
+                val moveIntent = Intent(this@MainActivity, AboutActivity::class.java)
+                startActivity(moveIntent)
+                true
             }
+            else -> super.onOptionsItemSelected(item)
         }
-        return super.onOptionsItemSelected(item)
+//        return super.onOptionsItemSelected(item)
     }
 
     private fun getListPlaces(): ArrayList<Place> {
