@@ -24,7 +24,7 @@ class ListPlaceAdapter(private val listPlace: ArrayList<Place>) : RecyclerView.A
     override fun getItemCount(): Int = listPlace.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, location, photo) = listPlace[position]
+        val (name, location, photo, ) = listPlace[position]
         holder.binding.imgPlacePhoto.setImageResource(photo)
         holder.binding.tvPlaceName.text = name
         holder.binding.tvPlaceLocation.text = location

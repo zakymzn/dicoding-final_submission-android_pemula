@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
-//        return super.onCreateOptionsMenu(menu)
         return true
     }
 
@@ -39,16 +38,16 @@ class MainActivity : AppCompatActivity() {
             }
             else -> super.onOptionsItemSelected(item)
         }
-//        return super.onOptionsItemSelected(item)
     }
 
     private fun getListPlaces(): ArrayList<Place> {
         val placeName = resources.getStringArray(R.array.place_name)
         val placeLocation = resources.getStringArray(R.array.place_location)
         val placeMainPhoto = resources.obtainTypedArray(R.array.place_main_photo)
+        val placeDescription = resources.getStringArray(R.array.place_description)
         val listPlace = ArrayList<Place>()
         for (i in placeName.indices) {
-            val place = Place(placeName[i], placeLocation[i], placeMainPhoto.getResourceId(i, -1))
+            val place = Place(placeName[i], placeLocation[i], placeMainPhoto.getResourceId(i, -1), placeDescription[i])
             listPlace.add(place)
         }
         return listPlace
@@ -67,6 +66,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showSelectedPlace(place: Place) {
-        Toast.makeText(this, "Kamu memilih " + place.name, Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this, "Kamu memilih " + place.name, Toast.LENGTH_SHORT).show()
+        startActivity(
+            Intent(applicationContext, PlaceDetailActivity::class.java)
+                .putExtra("place_name", place.name)
+                .putExtra("place_photo", place.photo)
+                .putExtra("place_location", place.location)
+                .putExtra("place_description", place.description)
+        )
+
     }
 }
