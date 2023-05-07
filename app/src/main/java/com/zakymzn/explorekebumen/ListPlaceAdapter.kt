@@ -12,9 +12,7 @@ class ListPlaceAdapter(private val listPlace: ArrayList<Place>) : RecyclerView.A
         this.onItemClickCallback = onItemClickCallback
     }
 
-    class ListViewHolder(var binding: ItemPlaceBinding) : RecyclerView.ViewHolder(binding.root) {
-
-    }
+    class ListViewHolder(var binding: ItemPlaceBinding) : RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ListViewHolder {
         val binding = ItemPlaceBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
@@ -24,7 +22,7 @@ class ListPlaceAdapter(private val listPlace: ArrayList<Place>) : RecyclerView.A
     override fun getItemCount(): Int = listPlace.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, location, photo, ) = listPlace[position]
+        val (name, location, photo) = listPlace[position]
         holder.binding.imgPlacePhoto.setImageResource(photo)
         holder.binding.tvPlaceName.text = name
         holder.binding.tvPlaceLocation.text = location

@@ -1,6 +1,7 @@
 package com.zakymzn.explorekebumen
 
 import android.content.Intent
+import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -13,10 +14,13 @@ import com.zakymzn.explorekebumen.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private val list = ArrayList<Place>()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        supportActionBar!!.title = "Explore Kebumen"
 
         binding.rvPlaces.setHasFixedSize(true)
 
@@ -66,7 +70,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showSelectedPlace(place: Place) {
-//        Toast.makeText(this, "Kamu memilih " + place.name, Toast.LENGTH_SHORT).show()
         startActivity(
             Intent(applicationContext, PlaceDetailActivity::class.java)
                 .putExtra("place_name", place.name)
@@ -74,6 +77,5 @@ class MainActivity : AppCompatActivity() {
                 .putExtra("place_location", place.location)
                 .putExtra("place_description", place.description)
         )
-
     }
 }
