@@ -8,7 +8,7 @@ class AboutActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
 
-        supportActionBar!!.title = "Profil"
+        supportActionBar!!.title = "About"
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
     }
 

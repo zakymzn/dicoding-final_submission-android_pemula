@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".AboutActivity">
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/profile_photo"
         android:layout_width="128dp"
         android:layout_height="128dp"
@@ -16,7 +16,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.243"
-        app:srcCompat="@drawable/profile" />
+        app:srcCompat="@drawable/profile"
+        app:shapeAppearanceOverlay="@style/Circular"/>
 
     <TextView
         android:id="@+id/profile_name"
