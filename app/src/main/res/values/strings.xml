@@ -8,6 +8,7 @@
     <string name="profile_email">mamurzakynurrokhman@gmail.com</string>
     <string name="place_detail_location">Detail Lokasi Tempat Wisata</string>
     <string name="place_detail_description">Detail Deskripsi Tempat Wisata</string>
+    <string name="place_detail_photo">Detail Foto Tempat Wisata</string>
     <string-array name="place_name">
         <item>Benteng Van Der Wijck</item>
         <item>Bukit Pentulu Indah</item>

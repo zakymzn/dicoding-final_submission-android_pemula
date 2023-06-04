@@ -1,13 +1,10 @@
 package com.zakymzn.explorekebumen
 
 import android.content.Intent
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.zakymzn.explorekebumen.databinding.ActivityMainBinding
 
