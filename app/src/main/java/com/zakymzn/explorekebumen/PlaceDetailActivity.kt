@@ -1,7 +1,8 @@
 package com.zakymzn.explorekebumen
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.zakymzn.explorekebumen.databinding.ActivityPlaceDetailBinding
 
 class PlaceDetailActivity : AppCompatActivity() {
@@ -15,7 +16,15 @@ class PlaceDetailActivity : AppCompatActivity() {
         binding.placeDetailPhoto.setImageResource(intent.getIntExtra("place_photo", -1))
         binding.placeDetailLocation.text = intent.getStringExtra("place_location")
         binding.placeDetailDescription.text = intent.getStringExtra("place_description")
-
+        binding.actionShare.setOnClickListener {
+            val sendIntent: Intent = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(Intent.EXTRA_TEXT, intent.getStringExtra("place_description"))
+                type = "text/plain"
+            }
+            val shareIntent = Intent.createChooser(sendIntent, null)
+            startActivity(shareIntent)
+        }
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
     }
 
